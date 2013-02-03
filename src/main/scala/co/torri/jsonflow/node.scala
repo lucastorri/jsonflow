@@ -15,7 +15,7 @@ trait Node extends Dynamic {
     def as[T](implicit convert: NodeConverter[T]) : Option[T]
 }
 object Node {
-	def apply(src: String) = WrappedNode(mapper.readValue(src, classOf[JsonNode]))
+    def apply(src: String) = WrappedNode(mapper.readValue(src, classOf[JsonNode]))
 }
 
 
