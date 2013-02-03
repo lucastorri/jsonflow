@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.JsonNode
 import scala.language.dynamics
 
 
+//TODO make it a Seq, able to use foreach/map/etc and use in for loops
 trait Node extends Dynamic {
 
     def isDeclared : Boolean
