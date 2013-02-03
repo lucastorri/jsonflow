@@ -1,6 +1,5 @@
 package co.torri.jsonflow
 
-import com.fasterxml.jackson.annotation._
 import org.specs2.mutable._
 
 
